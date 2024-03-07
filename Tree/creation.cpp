@@ -15,7 +15,8 @@ class Node{
 
 int main(){
 
-
+    Node *root = new Node(3);
+    cout << root->data << endl;
 
     return 0;
 }
