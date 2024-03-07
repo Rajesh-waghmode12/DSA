@@ -19,6 +19,13 @@ void Rotate(int *arr,int n){
     arr[0] = lastElement;
 }
 
+void print(int arr[],int n){
+    for (int i = 0; i < n;i++){
+        cout << arr[i] << " " <<endl;
+    }
+    cout << endl;
+}
+
 
 int main(){
 
